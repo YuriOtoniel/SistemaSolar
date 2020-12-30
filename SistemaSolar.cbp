@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SistemaSolar" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/SistemaSolar" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/SistemaSolar" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="../Libraries/freeglut-MinGW-3.0.0-1.mp/freeglut/include" />
+		</Compiler>
+		<Linker>
+			<Add library="../../../../../Program Files/CodeBlocks/MinGW/x86_64-w64-mingw32/lib/libopengl32.a" />
+			<Add library="../../../../../Program Files/CodeBlocks/MinGW/x86_64-w64-mingw32/lib/libglu32.a" />
+			<Add library="../Libraries/freeglut-MinGW-3.0.0-1.mp/freeglut/lib/x64/libfreeglut.a" />
+		</Linker>
+		<Unit filename="main.cpp" />
+		<Unit filename="textura.cpp" />
+		<Unit filename="textura.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1607118167 source:c:\users\yuri\area de desenvolvimento\c++\sistemasolar\main.cpp
+	<GL/freeglut.h>
+	"textura.h"
+	<cmath>
+	<stdlib.h>
+	<time.h>
+
+1426360528 c:\users\yuri\area de desenvolvimento\c++\libraries\freeglut-mingw-3.0.0-1.mp\freeglut\include\gl\freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1426360528 c:\users\yuri\area de desenvolvimento\c++\libraries\freeglut-mingw-3.0.0-1.mp\freeglut\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1426360528 c:\users\yuri\area de desenvolvimento\c++\libraries\freeglut-mingw-3.0.0-1.mp\freeglut\include\gl\freeglut_ext.h
+	<stdarg.h>
+
+1606735889 c:\users\yuri\area de desenvolvimento\c++\sistemasolar\textura.h
+	<GL/freeglut.h>
+	<cstdlib>
+	<cstdio>
+
+1606747343 source:c:\users\yuri\area de desenvolvimento\c++\sistemasolar\textura.cpp
+	"textura.h"
+
+1606735889 c:\users\yuri\area de desenvolvimento\c++\texturas\textura.h
+	<GL/freeglut.h>
+	<cstdlib>
+	<cstdio>
+
